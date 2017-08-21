@@ -11,7 +11,7 @@
         url('fonts/opensans/OpenSans-Regular-webfont.ttf') format('truetype'),
         url('fonts/opensans/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
    font-weight: normal;
-  	ont-style: normal;
+   font-style: normal;
 }
 @font-face {
    font-family: 'opensans-italic';
@@ -105,6 +105,7 @@
 }
 
 
+
 /*
  * Montserrat
 ================================================================================ */
@@ -134,6 +135,40 @@
  * Montserrat
 ================================================================================ */
 
+@font-face {
+    font-family: 'ShuSong';
+    src: url('fonts/ShuSong/ShuSong-webfont.eot');
+    src: url('fonts/ShuSong/ShuSong-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ShuSong/ShuSong-webfont.woff') format('woff'),
+        url('fonts/ShuSong/ShuSong-webfont.ttf') format('truetype'),
+        url('fonts/ShuSong/ShuSong-webfont.svg#ShuSong') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DaBiaoSong';
+    src: url('fonts/DaBiaoSong/DaBiaoSong-webfont.eot');
+    src: url('fonts/DaBiaoSong/DaBiaoSong-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/DaBiaoSong/DaBiaoSong-webfont.woff') format('woff'),
+        url('fonts/DaBiaoSong/DaBiaoSong-webfont.ttf') format('truetype'),
+        url('fonts/DaBiaoSong/DaBiaoSong-webfont.svg#DaBiaoSong') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'zktqkt';
+    src: url('fonts/zktqkt/zktqkt-webfont.eot');
+    src: url('fonts/zktqkt/zktqkt-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/zktqkt/zktqkt-webfont.woff') format('woff'),
+        url('fonts/zktqkt/zktqkt-webfont.ttf') format('truetype'),
+        url('fonts/zktqkt/zktqkt-webfont.svg#zktqkt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 /*
  * FIXED for Font-Face Chrome Rendering
 ================================================================================ */
@@ -157,6 +192,11 @@
    @font-face {
    font-family: 'montserrat-bold';
    src: url('fonts/montserrat/montserrat-bold-webfont.svg#montserratbold') format('svg');
-   }   
+   }
+
+   @font-face {
+   font-family: 'zktqkt';
+   src: url('fonts/zktqkt/zktqkt-webfont.svg#zktqkt') format('svg');
+   }
 
 }
