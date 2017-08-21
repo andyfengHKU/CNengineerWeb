@@ -82,7 +82,7 @@ header .logo a {
 	border: none;
 	outline: none;
    width: 64px;
-   height: 18px;   
+   height: 28px;
 }
 
 /* header social */
@@ -113,7 +113,7 @@ header .header-social li a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 11px 'montserrat-regular', sans-serif;
+   font: 20px 'montserrat-regular', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1.5px;
    float: left;
@@ -164,8 +164,8 @@ ul#nav li.current a { color: #fff; }
 /* ------------------------------------------------------------------ */
 
 #hero {
-   padding-top: 66px;
-   background: #23292f url(img/hero-bg.png);
+   padding-top: 0px;
+   background: #ffffff;
    overflow: hidden;
 }
 
@@ -175,7 +175,7 @@ ul#nav li.current a { color: #fff; }
 (min-resolution: 192dpi) {
 
 	#hero { 
-		background: #23292f url(img/hero-bg_@2X.png); 
+		background: #ffffff;
 		background-size: 200px 200px;
 	}
   
@@ -191,20 +191,20 @@ ul#nav li.current a { color: #fff; }
    margin: 54px auto 24px auto;
 }
 .hero-text h1 {
-   font: 40px/1.2em 'montserrat-regular', sans-serif; 
-   color: #fff;
+   font: 40px/1.2em 'KaiTi';
+   color: #000;
    padding: 0;
-   margin: 0;
+   margin: auto;
    text-shadow: 0px 1px 4px rgba(0, 0, 0, .2);
 }
 .hero-text h1 span,
-.hero-text a { color: #11ABB0; }
+.hero-text a { color: #b00907; }
 .hero-text p {
    font: 30px/50px 'KaiTi';
-   color: #fff;
+   color: #000;
    padding: 0;
-   margin: 12px 8% 0;
-   /*text-shadow: 0px 1px 2px rgba(0, 0, 0, .2);*/
+   margin: 0px 0;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
 }
 
 /* Hero Image */
@@ -213,8 +213,8 @@ ul#nav li.current a { color: #fff; }
    margin: 0 auto;
 }
 .hero-image img {
-   vertical-align: bottom;
-   margin: auto;
+   vertical-align: top;
+   margin: 0;
    display: block;
 }
 
@@ -266,10 +266,16 @@ ul#nav li.current a { color: #fff; }
    float: left;   
 }
 #features h3 {
-   font: 16px/24px 'montserrat-bold', sans-serif;
+   font: 30px/50px 'zktqkt',sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    color: #222;
+}
+#features p {
+    font: 16px/24px 'Kaiti';/*'LiSu';*/
+    color: #000;
+    padding: 0;
+    margin: 0px 0;
 }
 .fluid-video-wrapper { margin-top: 18px; }
 
