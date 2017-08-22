@@ -168,6 +168,11 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'FZZYJW';
+    src: local('FZZYJW.TTF');
+}
+
 
 /*
  * FIXED for Font-Face Chrome Rendering

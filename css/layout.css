@@ -266,13 +266,13 @@ ul#nav li.current a { color: #fff; }
    float: left;   
 }
 #features h3 {
-   font: 30px/50px 'zktqkt',sans-serif;
+   font: 30px/50px 'SimKai';
    text-transform: uppercase;
    letter-spacing: 1px;
    color: #222;
 }
 #features p {
-    font: 16px/24px 'Kaiti';/*'LiSu';*/
+    font: 16px/24px '方正综艺简体';/*'LiSu';*/
     color: #000;
     padding: 0;
     margin: 0px 0;
