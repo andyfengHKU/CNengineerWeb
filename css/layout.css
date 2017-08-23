@@ -266,7 +266,7 @@ ul#nav li.current a { color: #fff; }
    float: left;   
 }
 #features h3 {
-   font: 30px/50px 'SimKai';
+   /*font: 30px/50px 'KaiTi';*/
    text-transform: uppercase;
    letter-spacing: 1px;
    color: #222;
