@@ -33,7 +33,7 @@ body { background: #181d21; }
    text-align: center;
 }
 .section-head h1 {
-   font: 20px/36px 'montserrat-bold', sans-serif;
+   font: 20px/36px 'Simsun';
    color: #333;
    text-transform: uppercase;
    letter-spacing: 1.5px;
@@ -113,7 +113,7 @@ header .header-social li a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 20px 'montserrat-regular', sans-serif;
+   font: 20px 'SimSun';
    text-transform: uppercase;
    letter-spacing: 1.5px;
    float: left;
@@ -191,7 +191,7 @@ ul#nav li.current a { color: #fff; }
    margin: 54px auto 24px auto;
 }
 .hero-text h1 {
-   font: 40px/1.2em 'KaiTi';
+   font: 40px/1.2em 'SimSun';
    color: #000;
    padding: 0;
    margin: auto;
@@ -200,7 +200,7 @@ ul#nav li.current a { color: #fff; }
 .hero-text h1 span,
 .hero-text a { color: #b00907; }
 .hero-text p {
-   font: 30px/50px 'KaiTi';
+   font: 30px/50px 'SimSun';
    color: #000;
    padding: 0;
    margin: 0px 0;
@@ -272,7 +272,7 @@ ul#nav li.current a { color: #fff; }
    color: #222;
 }
 #features p {
-    font: 16px/24px '方正综艺简体';/*'LiSu';*/
+    font: 16px/24px 'SimSun';/*'LiSu';*/
     color: #000;
     padding: 0;
     margin: 0px 0;
@@ -501,7 +501,8 @@ ul.features li:nth-child(even) { }
    color: inherit;
 }
 #call-to-action p {
-   color: #697B8B; 
+   color: #697B8B;
+    font-family: 'SimSun';
    font-size: 17px; 
    padding-right: 5px; 
 }
@@ -569,7 +570,7 @@ ul.features li:nth-child(even) { }
 }
 #testimonials blockquote:before { content: none; }
 #testimonials blockquote p {
-   font-family: 'opensans-semibold', sans-serif;
+   font-family: 'SimSun';
    font-style: normal;
    color: #fff;
    padding: 0;
