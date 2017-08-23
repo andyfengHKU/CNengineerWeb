@@ -28,6 +28,7 @@
    <!-- Script
    ================================================== -->
    <script src="js/modernizr.js"></script>
+   <script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js?"></script>
 
    <!-- Favicons
 	================================================== -->
@@ -35,9 +36,16 @@
 
 </head>
 
+<script type="text/javascript">
+    $youziku.load("body", "9ddb9f261c1344c6a61a93a912b219a7", "hdjtechusong");
+    $youziku.load("#features h3", "9ddb9f261c1344c6a61a93a912b219a7", "hdjtechusong");
+    /*．．．*/
+    $youziku.draw();
+</script>
+
 <body>
 
-   <div id="preloader">      
+   <div id="preloader">
       <div id="status">
          <img src="images/preloader.gif" height="64" width="64" alt="">
       </div>
@@ -125,7 +133,7 @@
       <div class="row feature responsive">
 
          <div class="six columns left">
-            <h3>中国速度</h3>
+            <h3 font face="hdjtechusong">中国速度</h3>
 
             <p>测试字体</p>
          </div>
