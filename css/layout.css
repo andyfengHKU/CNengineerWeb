@@ -476,7 +476,7 @@ ul.features li:nth-child(even) { }
    font: 18px/24px 'montserrat-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #fff;
+   color: #FFF;
 }
 #call-to-action h1 span { display: none; }
 #call-to-action .header-col h1:before {
