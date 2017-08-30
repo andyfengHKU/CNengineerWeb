@@ -40,6 +40,7 @@
 
 <script type="text/javascript">
     $youziku.load("body", "9ddb9f261c1344c6a61a93a912b219a7", "hdjtechusong");
+    $youziku.load("#features h1", "9ddb9f261c1344c6a61a93a912b219a7", "hdjtechusong");
     $youziku.load("#features h3", "9ddb9f261c1344c6a61a93a912b219a7", "hdjtechusong");
     /*．．．*/
     $youziku.draw();
@@ -67,11 +68,10 @@
 	     <a class="mobile-btn" href="#" title="Hide navigation">隐藏菜单</a>
 
          <ul id="nav" class="nav">
-            <li><a class="smoothscroll" href="#features">首页</a></li>
-            <li><a class="smoothscroll" href="#pricing">简介</a></li>
-            <li><a class="smoothscroll" href="#screenshots">里程碑</a></li>
-            <li><a class="smoothscroll" href="#testimonials">联系我们</a></li>
-            <li><a class="smoothscroll" href="#subscribe">第五</a></li>
+            <li><a class="smoothscroll" href="#hero">首页</a></li>
+            <li><a class="smoothscroll" href="#features">简介</a></li>
+            <li><a class="smoothscroll" href="#call-to-action">里程碑</a></li>
+            <li><a class="smoothscroll" href="#footer">联系我们</a></li>
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
@@ -101,10 +101,6 @@
 
 	   <div class="row">
 
-          <div class="hero-image">
-             <img src="images/slogan.png" alt="" />
-          </div>
-
           <div class="twelve columns">
 
 			   <div class="hero-text">
@@ -115,6 +111,10 @@
                     <!--a class="button trial" href="#">Free Trial</a-->
                     <a class="button learn-more smoothscroll" href="#features">了解更多</a>
                </div>
+
+             <div class="hero-image">
+                <img src="images/hero-image.png" alt="" />
+             </div>
 
 		  </div>
 
@@ -188,13 +188,17 @@
 
     <!-- Pricing Section
    ================================================== -->
-   <section id="pricing">
+   <!--section id="pricing">
 
-   </section> <!-- Pricing End -->
+   </section--> <!-- Pricing End -->
 
    <!-- Call-To-Action Section
    ================================================== -->
    <section id="call-to-action">
+
+      <div class="row section-head">
+         <h1>里程碑</h1>
+      </div>
 
    </section> <!-- Call-To-Action Section End-->
 
@@ -322,98 +326,6 @@
 
    </section> <!-- Screenshots End -->
 
-
-   <!-- Testimonials Section
-   ================================================== -->
-   <section id="testimonials">
-
-      <div class="row content">
-
-         <span><i class="quote-left fa fa-quote-left"></i></span>
-
-         <div class="text-container">
-
-            <div class="twelve columns">
-
-               <h1>1级标题</h1>
-
-            </div>
-
-            <div class="twelve columns flex-container">
-
-               <div class="flexslider">
-
-                  <ul class="slides">
-
-                     <li>
-                        <blockquote>
-                           <p>这是一段比较长的段落字体测试</p>
-                           <cite>大神</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                     <li>
-                        <blockquote>
-                           <p>这是另一段比较长的段落字体测试</p>
-                           <cite>还是大神</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                  </ul>
-
-               </div> <!-- div.flexslider ends -->
-
-            </div> <!-- div.flex-container ends -->
-
-         </div>  <!-- text-container ends -->
-
-         <span><i class="quote-right fa fa-quote-right"></i></span>
-
-      </div> <!-- row ends -->
-
-   </section> <!-- Testimonials Section End-->
-
-
-   <!-- Subscribe
-   ================================================== -->
-   <section id="subscribe">
-
-      <div class="row section-head">
-
-         <div class="twelve columns">
-
-            <h1>1级字体</h1>
-
-            <p>段落字体测试</p>
-
-         </div>
-
-      </div>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-         <!-- Begin MailChimp Signup Form -->
-
-            <div id="mc_embed_signup">
-               <form action="http://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e65110b38d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                  
-                  <input type="email" value="" name="邮箱" class="email" id="mce-EMAIL" placeholder="email address" required>
-                   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                   <div style="position: absolute; left: -5000px;"><input type="text" name="b_cdb7b577e41181934ed6a6a44_e65110b38d" value=""></div>
-                  <div class="clear"><input type="submit" value="Subscribe" name="订阅" id="mc-embedded-subscribe" class="button"></div>
-               
-            </form>
-            </div>
-
-            <p><small>这是一段段落小字体测试</small></p>
-
-         </div>
-
-      </div>
-
-   </section>  <!-- Subscribe Section End-->
 
 
    <!-- Footer
