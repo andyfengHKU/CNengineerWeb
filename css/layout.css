@@ -526,8 +526,8 @@ ul.features li:nth-child(even) { }
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-    background: #10999E url(img/escheresque.png);
-    padding-top: 112px;
+   /* background: #10999E url(img/escheresque.png);*/
+    /*padding-top: 112px;*/
     padding-bottom: 66px;
     position: relative;
     min-height: 198px;
@@ -537,7 +537,7 @@ ul.features li:nth-child(even) { }
 }
 
 /* For high-res devices */
-@media
+/*@media
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
 
@@ -546,7 +546,7 @@ ul.features li:nth-child(even) { }
         background-size: 46px 29px;
     }
 
-}
+}*/
 
 #testimonials .quote-left,
 #testimonials .quote-right {
