@@ -154,7 +154,7 @@ ul#nav li a {
     -ms-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out;
 }
-ul#nav li a:hover { color: #fff; }
+ul#nav li a:hover { color: #ff050b; }
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #fff; }
 
@@ -247,7 +247,7 @@ ul#nav li.current a { color: #fff; }
 
 #features {
     background: #fff;
-    padding-top: 96px;
+    padding-top: 56px;
     padding-bottom: 78px;
     overflow: hidden;
 }
@@ -262,6 +262,14 @@ ul#nav li.current a { color: #fff; }
 #features .left {
     padding-right: 32px;
     float: left;
+}
+.feature-text h2 {
+    font: 40px/60px 'STXihei', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #222;
 }
 #features h3 {
     font: 20px/30px 'STXihei', sans-serif;
