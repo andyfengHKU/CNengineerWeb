@@ -246,7 +246,7 @@ ul#nav li.current a { color: #fff; }
 /* ------------------------------------------------------------------ */
 
 #features {
-    background: #fff;
+    background: #fff url(img/grey.png);
     padding-top: 56px;
     padding-bottom: 78px;
     overflow: hidden;
