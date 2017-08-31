@@ -165,7 +165,7 @@ ul#nav li.current a { color: #fff; }
 
 #hero {
     padding-top: 0px;
-    background: #23292f ;
+    background: #23292f url(img/grey.png);
     overflow: hidden;
 }
 
@@ -175,7 +175,7 @@ ul#nav li.current a { color: #fff; }
 (min-resolution: 192dpi) {
 
     #hero {
-        background: #23292f ;
+        background: #23292f url(img/grey.png);
         background-size: 200px 200px;
     }
 
@@ -676,19 +676,19 @@ ul.features li:nth-child(even) { }
     height: 12px;
     display: block;
     background: #ddd;
-    background: rgba(255, 255, 255, .3);
+    background: rgba(155, 155, 155, .3);
     cursor: pointer;
     text-indent: -9999px;
     border-radius: 20px;
-    box-shadow: inset 0 0 3px rgba(255, 255, 255, .3);
+    box-shadow: inset 0 0 3px rgba(155, 155, 155, .3);
 }
 .flex-control-paging li a:hover {
     background: #CCC;
-    background: rgba(255, 255, 255, .7);
+    background: rgba(155, 155, 155, .7);
 }
 .flex-control-paging li a.flex-active {
     background: #fff;
-    background: rgba(255, 255, 255, .9);
+    background: rgba(155, 155, 155, .9);
     cursor: default;
 }
 
