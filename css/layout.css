@@ -154,7 +154,7 @@ ul#nav li a {
     -ms-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out;
 }
-ul#nav li a:hover { color: #ff050b; }
+ul#nav li a:hover { color: #F86A5A; }
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #fff; }
 
@@ -164,8 +164,8 @@ ul#nav li.current a { color: #fff; }
 /* ------------------------------------------------------------------ */
 
 #hero {
-    padding-top: 66px;
-    background: #23292f url(img/hero-bg.png);
+    padding-top: 0px;
+    background: #23292f ;
     overflow: hidden;
 }
 
@@ -175,7 +175,7 @@ ul#nav li.current a { color: #fff; }
 (min-resolution: 192dpi) {
 
     #hero {
-        background: #23292f url(img/hero-bg_@2X.png);
+        background: #23292f ;
         background-size: 200px 200px;
     }
 
