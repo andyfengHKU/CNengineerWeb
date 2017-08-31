@@ -805,7 +805,7 @@ footer h3:before {
     font-size: 30px;
     line-height: 48px;
     text-align: left;
-    color: #738291;
+    color: #ffffff;
     display: block;
 }
 footer h3.address:before { content: "\f041"; }
@@ -821,9 +821,9 @@ footer ul li {
     line-height: 24px;
 }
 footer ul li a,
-footer ul li a:visited { color: #3c4753; }
+footer ul li a:visited { color: #ffffff; }
 footer ul li a:hover,
-footer ul li a:focus { color: #fff; }
+footer ul li a:focus { color: #F86A5A; }
 
 /* copyright */
 footer .copyright {
