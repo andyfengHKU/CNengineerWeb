@@ -57,7 +57,7 @@
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #e71e18;
+  background-color: #ffffff;
   color: white;
   border-radius: 100%;
   border: 7px solid #ffffff;;
@@ -92,6 +92,14 @@
   margin-top: 0;
   color: inherit;
 }
+.timeline .timeline-heading h4 .a {
+  font-size: 15px;
+  color: #ffffff;
+}
+.timeline .timeline-heading h4 .b {
+  font-size: 20px;
+  color: #f8fa41;
+}
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
 }
@@ -99,6 +107,8 @@
 .timeline .timeline-body > ul {
   margin-bottom: 0;
 }
+
+
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;
