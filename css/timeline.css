@@ -57,10 +57,10 @@
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #fed136;
+  background-color: #e71e18;
   color: white;
   border-radius: 100%;
-  border: 7px solid #f1f1f1;
+  border: 7px solid #ffffff;;
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
