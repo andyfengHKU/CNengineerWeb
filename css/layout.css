@@ -183,6 +183,13 @@ ul#nav li.current a { color: #fff; }
 
 #hero .row { max-width: 1040px; }
 
+img.layer {
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    z-index: 1;
+}
+
 /* Hero Text */
 .hero-text {
     color: #676e73;
