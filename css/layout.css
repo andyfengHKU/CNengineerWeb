@@ -100,7 +100,7 @@ header .header-social li {
     margin-right: 20px;
 }
 header .header-social li a { color: #fff; }
-header .header-social li a:hover { color: #11ABB0; }
+header .header-social li a:hover { color: #F86A5A; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -113,7 +113,7 @@ header .header-social li a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-    font: 20px 'STXihei', sans-serif;
+    font: 18px 'STXihei', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     float: left;
@@ -254,7 +254,7 @@ img.layer {
 
 #features {
     background: #fff url(img/grey.png);
-    padding-top: 56px;
+    padding-top: 20px;
     padding-bottom: 78px;
     overflow: hidden;
 }
