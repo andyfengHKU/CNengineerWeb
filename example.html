@@ -22,8 +22,8 @@
    <!--link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"-->
    <link rel="stylesheet" href="css/default.css">
    <link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="member/member_css/base.css">
-   <link rel="stylesheet" href="member/member_css/main.css">
+   <link rel="stylesheet" href="css/member_css/base.css">
+   <link rel="stylesheet" href="css/member_css/main.css">
    <!-- Script
    ================================================== -->
 
@@ -58,38 +58,35 @@
 	     <a class="mobile-btn" href="#" title="Hide navigation">隐藏菜单</a>
 
          <ul id="nav" class="nav">
-            <li><a class="smoothscroll" href="#hero">首页</a></li>
-            <li><a class="smoothscroll" href="#features">简介</a></li>
-            <li><a class="smoothscroll" href="#call-to-action">里程碑</a></li>
+            <li><a href="index.html">首页</a></li>
+            <li><a class="smoothscroll" href="#about">个人简介</a></li>
             <li><a class="smoothscroll" href="#footer">联系我们</a></li>
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
 
       <ul class="header-social">
-         <li><a href="#"><i class="fa fa-wechat"></i></a></li>
-         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-         <li><a href="#"><i class="fa fa-weibo"></i></a></li>
+         <li><a href="images/QRcode.png"><i class="fa fa-wechat"></i></a></li>
+         <li><a href="https://www.facebook.com/CNengineer.ORG/"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="https://twitter.com/CNengineer_ORG"><i class="fa fa-twitter"></i></a></li>
       </ul>
 
    </header> <!-- Header End -->
 
    <!-- Features Section
    ================================================== -->
-   <section id="about">  
+   <section id="intro">  
 
    	<div class="row section-intro">
    		<div class="col-twelve">
-
-   			<h5>About</h5>
-   			<h1>Let me introduce myself.</h1>
+   			<!--h5>About</h5-->
+   			<h1>自我介绍标题</h1>
 
    			<div class="intro-info">
 
-   				<img src="images/profile-pic.jpg" alt="Profile Picture">
+   				<img src="images/team/1.jpg" alt="Profile Picture">
 
-   				<p class="lead">Lorem ipsum Exercitation culpa qui dolor consequat exercitation fugiat laborum ex ea eiusmod ad do aliqua occaecat nisi ad irure sunt id pariatur Duis laboris amet exercitation veniam labore consectetur ea id quis eiusmod.</p>
+   				<p class="lead">这是一段自我介绍测试，这是一段自我介绍测试，这是一段自我介绍测试，这是一段自我介绍测试，这是一段自我介绍测试。</p>
    			</div>   			
 
    		</div>   		
@@ -99,28 +96,28 @@
 
    		<div class="col-six tab-full">
 
-   			<h3>Profile</h3>
-   			<p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
+   			<h3>简历</h3>
+   			<p>这是一段简历段落测试，这是一段简历段落测试，这是一段简历段落测试，这是一段简历段落测试，这是一段简历段落测试，这是一段简历段落测试，这是一段简历段落测试，</p>
 
    			<ul class="info-list">
    				<li>
-   					<strong>Fullname:</strong>
-   					<span>Juan Dela Cruz</span>
+   					<strong>全名：</strong>
+   					<span>冯西洋</span>
    				</li>
    				<li>
-   					<strong>Birth Date:</strong>
+   					<strong>生日：</strong>
    					<span>September 28, 1987</span>
    				</li>
    				<li>
-   					<strong>Job:</strong>
-   					<span>Freelancer, Frontend Developer</span>
+   					<strong>职业:</strong>
+   					<span>学生</span>
    				</li>
    				<li>
-   					<strong>Website:</strong>
+   					<strong>个人主页：</strong>
    					<span>www.kardswebsite.com</span>
    				</li>
    				<li>
-   					<strong>Email:</strong>
+   					<strong>邮箱:</strong>
    					<span>me@kardswebsite.com</span>
    				</li>
 
@@ -130,8 +127,8 @@
 
    		<div class="col-six tab-full">
 
-   			<h3>Skills</h3>
-   			<p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
+   			<h3>能力/技术</h3>
+   			<p>这是一段个人能力简介，这是一段个人能力简介，这是一段个人能力简介，这是一段个人能力简介，这是一段个人能力简介，这是一段个人能力简介，这是一段个人能力简介，</p>
 
 				<ul class="skill-bars">
 				   <li>
@@ -164,7 +161,7 @@
 
    	<div class="row button-section">
    		<div class="col-twelve">
-   			<a href="#" title="Download CV" class="button button-primary">Download CV</a>
+   			<a href="#" title="Download CV" class="button button-primary">简历下载</a>
    		</div>   		
    	</div>
 
@@ -173,7 +170,7 @@
    
    <!-- Footer
    ================================================== -->
-   <footer id="footer">
+    <footer id="footer">
 
       <div class="row">
 
@@ -185,7 +182,9 @@
                </a>
             </div>
 
-            <p>这是一段段落字体测试</p>
+             <p class="name">华人工程师暨学生学者联合学会</br>CNengineer.ORG</p>
+
+            <!--p>联系方式</p-->
 
          </div>
 
@@ -196,19 +195,20 @@
                <div class="columns">
                   <h3 class="social"></h3>
                   <ul>
-                     <li><a href="#">微信</a></li>
-                     <li><a href="#">Facebook</a></li>
-                     <li><a href="#">Twitter</a></li>
-                     <li><a href="#">微博</a></li>
+                     <li><a href="images/QRcode.png">微信</a></li>
+                     <li><a href="https://www.facebook.com/CNengineer.ORG/">Facebook</a></li>
+                     <li><a href="https://twitter.com/CNengineer_ORG">Twitter</a></li>
                   </ul>
                </div>
 
                <div class="columns last">
                   <h3 class="contact"></h3>
                   <ul>
-                     <li><a href="tel:6473438234">647.343.8234</a></li>
-                     <li><a href="tel:1234567890">123.456.7890</a></li>
-                     <li><a href="mailto:someone@woo.com">someone@woosite.com</a></li>
+                     <!--li><a href="tel:6473438234">647.343.8234</a></li>
+                     <li><a href="tel:1234567890">123.456.7890</a></li-->
+                     <li><a href="mailto:info@cnengieer.org">info@cnengieer.org</a></li>
+                     <li><a href="mailto:admission@cnengineer.org">admission@cnengineer.org</a></li>
+                     <li><a href="mailto:cnengineer@mit.edu">cnengineer@mit.edu</a></li>
                   </ul>
                </div>
 
@@ -216,11 +216,7 @@
 
          </div>
 
-         <p class="copyright">&copy; 2014 Woo | Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></p>
-
-         <div id="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#hero"><i class="icon-up-open"></i></a>
-         </div>
+         <p class="copyright">&copy; 2017 CNengineer.ORG | Designed by CNengineer.ORG</p>
 
       </div> <!-- Row End -->
 

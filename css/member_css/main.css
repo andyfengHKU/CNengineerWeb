@@ -34,9 +34,6 @@
  *
  * ------------------------------------------------------------------- 
  */
-@import url("fonts.css");
-@import url("font-awesome/css/font-awesome.min.css");
-@import url("micons/micons.css");
 
 
 /** 
@@ -46,7 +43,7 @@
  * ------------------------------------------------------------------- 
  */
 html {
-	font-size: 10px;
+	font-size: 15px;
 }
 
 @media only screen and (max-width:1024px) {
@@ -1040,8 +1037,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: relative;
 }
 .section-intro h1 {
-	font-family: "poppins-semibold", serif;
-	font-size: 3.6rem;
+	font-family: "STXihei", serif;
+	font-size: 35px;
 	color: #313131;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
@@ -1053,7 +1050,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin-bottom: 0.3rem;
 	letter-spacing: .4rem;
 }
-
+.section-intro p {
+	color: #838C95;
+	font-size: 20px;
+	font-weight: normal;
+}
 /**
  * responsive:
  * common styles
@@ -1262,7 +1263,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: #151515 url(../img/grey.png) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1273,6 +1274,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	display: table;
 	position: relative;
 	text-align: center;
+	margin-top: 50px;
+	padding-top: 50px;
 }
 .intro-overlay {
 	position: absolute;
@@ -1298,7 +1301,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	font-size: 8.4rem;
 	line-height: 1.071;
 	max-width: 900px;
-	margin-top: 0;
+	margin-top: 20px;
 	margin-bottom: .6rem;
 	margin-left: auto;
 	margin-right: auto;
@@ -1488,10 +1491,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	text-align: left;
 	max-width: 850px;
 	margin-bottom: 3.6rem;
+	color: #838C95;
 }
 .about-content h3 {
 	font-family: 'STXihei', sans-serif;;
-	font-size: 1.8rem;
+	font-size: 25px;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 }
@@ -2458,110 +2462,3 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- 
  */
-footer {
-	padding-bottom: 3rem;
-	font-size: 1.4rem;
-	font-family: "poppins-regular", sans-serif;
-}
-footer a, footer a:visited {
-	color: #FFFFFF;
-}
-footer a:hover, footer a:focus {
-	color: #FF0077;
-}
-footer .row {
-	max-width: 900px;
-}
-footer .social {
-	text-align: right;
-}
-footer .footer-social {
-	display: inline-block;
-	font-size: 2.1rem;
-	margin: 0;
-	padding: 0;
-	position: relative;
-	top: -.3rem;
-}
-footer .footer-social li {
-	display: inline-block;
-	margin: 0 12px;
-	padding: 0;
-}
-footer .footer-social li a {
-	color: #FFFFFF;
-}
-footer .copyright span {
-	display: inline-block;
-}
-footer .copyright span::after {
-	content: "|";
-	display: inline-block;
-	padding: 0 1rem 0 1.2rem;
-	color: rgba(255, 255, 255, 0.1);
-}
-footer .copyright span:last-child::after {
-	display: none;
-}
-
-/**
- * responsive:
- * footer
- * -------------------------------------------------------------------
- */
-@media only screen and (max-width:768px) {
-	footer {
-		text-align: center;
-	}
-	footer .social {
-		display: block;
-		width: 100%;
-		text-align: center;
-		margin-bottom: 1.5rem;
-	}
-	footer .copyright span {
-		display: block;
-	}
-	footer .copyright span::after {
-		display: none;
-	}
-}
-
-/**
- * go to top - (_layout.scss)
- * ------------------------------------------------------------------- 
- */
-#go-top {
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	z-index: 600;
-	display: none;
-}
-#go-top a {
-	text-decoration: none;
-	border: 0 none;
-	display: block;
-	height: 6.6rem;
-	width: 6rem;
-	line-height: 6.6rem;
-	text-align: center;
-	background: #cc005f;
-	color: #FFFFFF;
-	text-align: center;
-	text-transform: uppercase;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-#go-top a i {
-	font-size: 1.6rem;
-	line-height: inherit;
-}
-#go-top a:hover {
-	background: #000000;
-}
-
-/*# sourceMappingURL=main.css.map */
